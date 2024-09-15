@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Job search portal</title>
+        <link rel="stylesheet" href="static/main.css">
+    </head>
+    <body>
+        <h1 align="center">JOB search</h1>
+        <img id="homepic"src="static/job.avif">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam a tellus vulputate tristique. Suspendisse venenatis, risus at ultricies ornare, nunc ligula imperdiet nulla, eu tincidunt neque quam eget nisi. Proin elit dui, mollis eget nisi sit amet, molestie venenatis nisl. Vivamus vitae ipsum erat. Vestibulum non commodo ante. Integer lorem urna, vestibulum id erat sed, viverra eleifend ipsum. Nullam tellus quam, sagittis at sapien non, ornare laoreet neque. Integer sed gravida nunc. Aenean pulvinar ut sapien ullamcorper imperdiet. Maecenas sit amet sem in lacus convallis auctor in id arcu. Pellentesque elementum dui in purus condimentum tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque dolor quis ullamcorper consectetur. Vestibulum rutrum rutrum nisl at facilisis.
+        </p>
+        <p>
+            <h2>Choose from the had picked jobs below</h2>
+        </p>
+        <p>
+            {% for job in jobs %}
+               {% include 'jobList.html'%}
+            {% endfor %}
+        </p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+body{
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#homepic{
+    width: 800px;
+    height: 400px;
+}
